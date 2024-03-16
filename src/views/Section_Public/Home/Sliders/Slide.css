@@ -1,0 +1,24 @@
+#h1Slide {
+  margin-top: 1px;
+  margin-bottom: 100px;
+}
+
+#h5Slide {
+  text-align: right;
+  /* margin-bottom: 200px; */
+}
+
+.pSlides {
+  text-align: right;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 479px) {
+    #h1Slide {
+    margin-bottom: 78px;
+  }
+  .pSlides {
+    margin-bottom: 15px;
+    font-size: 0.8em;
+  }
+}

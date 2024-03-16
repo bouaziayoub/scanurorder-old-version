@@ -1,0 +1,14 @@
+.error_message{
+    color: #E60023;
+    background-color: #FFF0F2;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #E60023;
+    margin: 10px 0;
+
+    /* background-color: #FFECEC;
+    color: #E60023;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px; */
+}

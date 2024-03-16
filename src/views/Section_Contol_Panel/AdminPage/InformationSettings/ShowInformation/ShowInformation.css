@@ -1,0 +1,32 @@
+.containerInfo {
+  position: relative;
+}
+
+.imgShowInfo {
+  width: 100%;
+  height: 78.6vh;
+  filter: brightness(0.06);
+  border-radius: 1em;
+}
+
+.top-left-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.top-left-info p {
+  font-style: italic;
+}
+@media (max-width: 767px) {
+  .top-left-info {
+    font-size: 15px;
+  }
+}
+@media (max-width: 428px) {
+  .top-left-info {
+    font-size: 10px;
+  }
+}

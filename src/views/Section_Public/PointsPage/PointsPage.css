@@ -1,0 +1,57 @@
+/* .my-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #27292a;
+} */
+.puntos-page {
+  /* background-color:#27292a;
+  border: 2px solid #f8f9fa;
+  border-radius: 10px; */
+  /* height: 350px; */
+  /* width: 80%; */
+  color: white;
+  text-align: center;
+  padding: 50px;
+  /* border: 2px solid #f8f9fa; */
+  border-radius: 20px;
+  width: 80%;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+}
+
+.puntos-page__h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.puntos-page__description {
+  margin: auto;
+  font-size: 20px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+
+.puntos-page__button-text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 479px) {
+  .puntos-page__description {
+    width: 100%;
+  }
+  .puntos-page {
+    margin-top: 10px;
+    padding: 5px;
+  }
+  .puntos-page__h1 {
+    margin-bottom: 10px;
+  }
+}

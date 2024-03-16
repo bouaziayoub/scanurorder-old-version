@@ -1,0 +1,15 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #myModal,
+  #myModal * {
+    visibility: visible;
+  }
+  #myModal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}

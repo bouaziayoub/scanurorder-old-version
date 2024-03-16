@@ -1,0 +1,25 @@
+.paddinDivCocina{
+    padding: 92px;
+    margin-bottom: 150px
+}
+
+.preparado {
+    background-color: #00ff006c;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.pendiente {
+    background-color: #ff00006b;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.pedidos {
+    display: flex;
+    justify-content: center;
+}
+
+.pedidos * {
+    padding: 5px;
+}

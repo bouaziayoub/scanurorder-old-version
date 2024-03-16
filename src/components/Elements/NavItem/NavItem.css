@@ -1,0 +1,11 @@
+.nav-item:hover {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.dropdown-toggle:hover,
+.dropdown-menu a:hover {
+  background-color: #1f2122;
+  color: white;
+}

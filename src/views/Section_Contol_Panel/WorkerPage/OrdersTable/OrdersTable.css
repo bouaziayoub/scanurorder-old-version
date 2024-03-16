@@ -1,0 +1,49 @@
+.mesa {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.pedido {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.estado {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+}
+
+.type {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+.pedidosAsociados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.numPesonas {
+    text-align: right;
+}
+
+.mesa > div {
+    margin: 0 10px 0 10px;
+}
+
+.mesa > div > div {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}
+
+.pedido > div {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}

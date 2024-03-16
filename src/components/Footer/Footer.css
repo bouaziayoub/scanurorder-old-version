@@ -1,0 +1,29 @@
+/* First style footer */
+.footer {
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; */
+    /* color: rgb(101, 101, 101);*/
+    text-align: center;
+    padding: 23.5px;
+  }
+
+
+
+/* Second style footer */
+  /* footer p {
+    text-align: center;
+    padding: 30px 0px;
+    color: #fff;
+    font-weight: 300;
+    }
+    
+    footer p a {
+    color: #fff;
+    transition: all .3s;
+    }
+    
+    footer p a:hover {
+    color: #ec6090;
+    } */

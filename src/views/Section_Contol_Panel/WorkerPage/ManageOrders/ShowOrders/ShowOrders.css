@@ -1,0 +1,23 @@
+.showOrders h1 {
+  text-align: center;
+}
+/* .btn_card {
+  display: flex;
+} */
+/* @media (max-width: 700px) {
+  .btn_card {
+    display: flex;
+  }
+
+  .btn_card .bttn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+} */
+
+@media (max-width: 700px) {
+  .btn-group {
+    display: flex;
+  }
+}

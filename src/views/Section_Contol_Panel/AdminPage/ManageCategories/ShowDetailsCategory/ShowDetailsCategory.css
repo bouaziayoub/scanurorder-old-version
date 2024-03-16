@@ -1,0 +1,22 @@
+.modal-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .modal-body li {
+    margin-bottom: 10px;
+  }
+  
+  .modal-body label {
+    display: block;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .modal-body label:hover {
+    background-color: #e1e1e1;
+  }

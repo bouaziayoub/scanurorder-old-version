@@ -1,0 +1,21 @@
+.containerLogin {
+  padding-top: 100px;
+}
+
+@media (max-width: 1670px) {
+  .containerContact {
+    padding-top: 150px;
+  }
+  #contactUsForm {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .containerContact {
+    padding-top: 150px;
+  }
+  #contactUsForm {
+    width: 90%;
+  }
+}

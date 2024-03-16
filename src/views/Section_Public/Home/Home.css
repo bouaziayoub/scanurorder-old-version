@@ -1,0 +1,7 @@
+.slider-img {
+  filter: brightness(0.08);
+  object-fit: cover;
+  height: 78.6vh;
+  width: 100%;
+  margin: auto;
+}

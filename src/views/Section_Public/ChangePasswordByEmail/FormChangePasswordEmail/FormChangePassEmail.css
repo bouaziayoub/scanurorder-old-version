@@ -1,0 +1,29 @@
+.text-light{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.containerGestionUsuarios{
+
+    width: 40%;
+    border-radius: 15px
+}
+
+
+@media (max-width: 1500px) {
+    .containerGestionUsuarios{
+        width: 60%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #containerGestionUsuarios{
+        width: 80%;
+    }
+}
+
+@media (max-width: 755px) {
+    #containerGestionUsuarios{
+        width: 90%;
+    }
+}

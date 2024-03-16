@@ -1,0 +1,33 @@
+.containerContact{
+  padding-top: 100px;
+}
+
+#contactUsForm {
+  width: 40%;
+  margin: auto;
+  /* background-color:#27292a; */
+  color: #ffffff;
+  border: 2px solid #f8f9fa;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media (max-width: 1670px) {
+  .containerContact{
+    padding-top: 150px;
+  }
+  #contactUsForm {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .containerContact{
+    padding-top: 150px;
+  }
+  #contactUsForm {
+    width: 90%;
+  }
+}
